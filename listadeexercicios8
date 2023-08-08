@@ -1,0 +1,251 @@
+programa
+{
+	
+	funcao inicio()
+	{
+
+		
+/*
+		//11)
+
+		inteiro a
+		escreva("digite um número inteiro para sabermos o quociente. E também descobrirmos o resto desse número \n")
+		leia(a)
+
+		inteiro b = a / 3
+		escreva(b, "\n") 
+
+		inteiro c = (a % 3) 
+		escreva(c, "\n")
+
+		escreva("\n")
+		
+*/
+
+
+/*
+		//12)
+
+		inteiro x
+		escreva("quantas quilos de comida você comprou? \n")
+		leia(x)
+
+		inteiro y = x * 1000
+		escreva("a quantidade em quilos foi convertida em gramas, que resultou em ", y , " gramas. Depois dividido por 50 gramas de consumo por dia. \n")
+
+		inteiro z = y / 50
+		escreva("e o resultado é: consumindo 50 gramas por dia o alimento comprado vai durar ", z, " dias. \n")
+
+		escreva("\n")
+
+
+
+		
+*/
+
+
+
+/*
+
+		//13)
+
+		real turmac
+		escreva("quantos alunos tem na turma C? \n")
+		leia(turmac)
+
+		real reprovadosc
+		escreva("quantos alunos foram reprovados na turma C? \n")
+		leia(reprovadosc)
+
+		real aprovadosmenosreprovadosc = turmac - reprovadosc
+		escreva(aprovadosmenosreprovadosc, "foram os alunos aprovados \n")
+
+		real porcentagemc =  reprovadosc / turmac * 100
+		escreva(porcentagemc, "% foi a porcentagem de alunos reprovados na turma C \n")
+
+		
+		escreva("\n")
+		
+
+		real turmad
+		escreva("quantos alunos tem na turma D? \n")
+		leia(turmad)
+
+		real reprovadosd
+		escreva("quantos alunos foram reprovados na turma D? \n")
+		leia(reprovadosd)
+
+		real aprovadosmenosreprovadosd = turmac - reprovadosc
+		escreva(aprovadosmenosreprovadosd, " foram os alunos aprovados \n")
+
+		real porcentagemd =  reprovadosd / turmad * 100
+		escreva(porcentagemd, "% foi a porcentagem de alunos reprovados na turma D \n")
+
+
+		real porcentagemtotalreprovados = porcentagemc + porcentagemd
+		escreva(porcentagemtotalreprovados, "% foi a porcentagem de reprovação somada entre a turma C e D \n")
+
+
+		escreva("\n")
+
+*/
+
+
+/*
+
+		//14)
+
+		real precocombustivel = 2.50
+		
+		real iniciotrabalho
+		escreva("quantos km está marcando no início das corridas? \n")
+		leia(iniciotrabalho)
+		
+		real finaltrabalho
+		escreva("quantos km está marcando no final das corridas? \n")
+		leia(finaltrabalho)
+
+		real diferencakm = finaltrabalho - iniciotrabalho
+		escreva(diferencakm, " kms foi a diferença rodada no dia \n")
+
+		escreva("\n")
+
+		real litrosgastos
+		escreva("quantos litros foram gastos no final do dia? \n")
+		leia(litrosgastos)
+
+		real faturamentopassageiros
+		escreva("qual foi o faturamento das corridas de hoje? \n")
+		leia(faturamentopassageiros)
+
+		real mediaconsumo = diferencakm / litrosgastos
+		escreva("a media do consumo em km/L foi de: ", mediaconsumo, "\n")
+
+		real lucrofinaldodia = faturamentopassageiros - litrosgastos * 2.50
+		escreva("o lucro no final do dia, já descontando o gasto com combustível foi de: ", lucrofinaldodia, "\n")
+				
+*/
+
+/*
+
+		//15)
+
+		real custofabrica
+		escreva("qual o custo de fabricação de cada bicicleta \n")
+		leia(custofabrica)
+
+		real custodevenda = custofabrica * 0.50
+		
+		real comissao = custofabrica * 0.15
+
+		real unidadesvendidas
+		escreva("quantas unidades de bicicletas foram vendidas? \n")
+		leia(unidadesvendidas)
+
+		real comissaovezesunidades = (comissao * unidadesvendidas) / 2
+		escreva(comissaovezesunidades, " é a comissão para cada vendedor \n")
+
+		cadeia funcionarios
+		escreva("quantos funcionários tem na loja e qual é o respectivo salário de cada um deles? \n")
+		leia(funcionarios)
+
+		real salariofuncionario1
+		escreva("qual o salário dofuncionario 1? \n")
+		leia(salariofuncionario1)
+
+		real salariofuncionario2
+		escreva("qual o salário dofuncionario 2? \n")
+		leia(salariofuncionario2)
+
+		escreva("\n")
+
+		real salarioecomissao1 = salariofuncionario1 + comissaovezesunidades
+		escreva(salarioecomissao1, " é o salário do primeiro funcionário \n")
+
+		escreva("\n")
+
+		real salarioecomissao2 = salariofuncionario2 + comissaovezesunidades
+		escreva(salarioecomissao2, " é o salário do segundo funcionário \n")
+
+		escreva("\n")
+
+		real custosalarios = salarioecomissao1 + salarioecomissao2
+		escreva(custosalarios, " é o salário de todos os funcionários já com as respectivas comissões")
+
+		escreva("\n")
+
+		real lucrobruto = unidadesvendidas * custodevenda
+		escreva("o lucro bruto foi de: ", lucrobruto)
+
+		escreva("\n")
+
+		real lucroliquido = lucrobruto - custosalarios
+		escreva("o lucro liquido foi de: ", lucroliquido)
+		
+		
+*/		
+
+/*
+
+		//16)
+
+		inteiro numero = 1738
+		escreva("Esse exercício é para decompor o número ", numero, " respectivamente em: unidades, dezenas, centenas e milhares \n")
+
+		inteiro unidades = numero / 1
+		escreva(unidades, " unidades \n")
+
+		inteiro dezenas = numero / 10
+		escreva(dezenas, " dezenas \n")
+
+		inteiro centenas = numero / 100
+		escreva(centenas, " centenas \n")
+
+		inteiro milhar = numero / 1000
+		escreva(milhar, " milhar \n")
+
+*/	
+
+
+		//17)
+
+		inteiro turmax
+		escreva("quantos alunos tem na turma X? \n")
+		leia(turmax)
+
+		inteiro turmay
+		escreva("quantos alunos tem na turma Y? \n")
+		leia(turmay)
+
+
+		inteiro turmaz
+		escreva("quantos alunos tem na turma Z? \n")
+		leia(turmaz)
+
+		cadeia menorturma
+			se(turmax == turmay e turmax == turmaz e turmay == turmaz){
+				escreva("as turmas ficaram com a mesma quantidade de alunos")
+			}senao{
+				escreva("terá uma turma com menos alunos \n")
+			}
+
+		
+		
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
